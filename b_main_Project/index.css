@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100%;
+    height: 100vh;
+    /* overflow: hidden; */
+    background-image: url('a3.jpeg');
+}
+.outer{
+    display: flex;
+}
+.hed{
+    background-color: lightblue;
+    color: blue;
+    font-style: italic;
+    font-size: 20px;
+}
+.container{
+    border: 0.11rem dashed white;
+    padding: 1px;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;        
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.selectedname{
+    width: 90%;
+    text-align: center;
+    line-height: 30px;
+}
+.main{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.timeco{
+    display: flex;
+    /* float: right; */
+}
+.time{
+ background-color: rgba(255, 0, 0, 0.24);  
+ border: 1px solid rgb(255, 0, 0);
+ border-radius: 20px;
+ height: 30px;
+ width: 90px;
+ justify-content: center;
+ align-items: center;
+}
+.photo img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#UserNamePioleta {
+    width: 150px;
+    border: 2px solid yellow;
+    background-color: blue;
+    
+}
+.nav-bar{
+    /* border: 2px solid white; */
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    outline: none;
+}
+.nav-bar img{
+    height: 35px;
+    /* background-color: rgba(255, 255, 255, 0.712); */
+    /* border-radius: 40%; */
+    width: 35px;
+    margin:3px;
+    object-fit: fill;
+    padding: 5px;
+    outline: none;
+    /* border: 1px dotted white; */
+}
+.nav-bar img:hover{
+    /* border: 2px solid red; */
+    background-color: rgba(255, 30, 0, 0.233);
+    transition: .3s;
+    object-fit: cover;
+    padding: 1px;
+    border: none;
+}
+
+/* select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-position: right center;
+    background-repeat: no-repeat;
+}*/  
+/* background-image: url('arrow-down.png'); Replace with your arrow icon */
+ /* padding-right: 25px;Adjust the padding to make room for the arrow */
