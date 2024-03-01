@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-image: url('rootofbg.jpg');
+    background-size: cover;
+    transform: rotate(359deg);
+    transition: transform 0.5s ease-in-out;
+}
+#calculator{
+    font-family: arial,sans-serif;
+    /* background-color: hsl(0, 0%, 15%); */
+    border-radius: 15px;
+    max-width: 360px;
+    max-height: 80%;
+    overflow: hidden;
+    backdrop-filter: blur(5px); /* Adjust the value (5px) for the desired blur amount */
+    background-color: rgba(121, 15, 163, 0.397);
+}
+#display{
+    width: 100%;
+    padding: 10px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsla(0, 0%, 20%, 0.692);
+    color: white;
+
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+    padding: 10px;
+
+}
+button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+
+}
+button:active{
+    background-color: hsl(0, 0%, 50%);
+    color: yellow;
+    font-size: 3.5rem;
+
+}
+.operator-btn{
+    background-color: rgba(41, 213, 219, 0.521);
+}
+.operator-btn:hover{
+    background-color: hsl(199, 83%, 32%);
+    transition: transform 0.5s ease-in-out;
+}
+.operator-btn:active{
+    background-color: hsl(172, 100%, 49%);
+}
